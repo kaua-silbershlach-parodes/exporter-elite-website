@@ -65,3 +65,12 @@ the target page, and start the export from the Violentmonkey menu.
 ## License
 
 Copyright (c) A Elite Estrangeira. All rights reserved.
+
+## Desktop base
+
+This repository also carries the Machinery desktop base (Rust/Tauri shell +
+Elixir backend) as the starting point for the future Exporter Elite Website
+program: an installable Windows app with signed live updates, an Updates
+screen, and the backend sidecar skeleton. The desktop base does not embed
+the userscript; the userscript stays at the repository root as the current
+exporter, and the program will be built on this base.
